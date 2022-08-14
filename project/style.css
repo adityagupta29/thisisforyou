@@ -1,0 +1,233 @@
+:root {
+    --main: #1AC073;
+    --btn: #F3BA00;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* <!-- ------navbar--------- --> */
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--main);
+    padding: 20px 0px;
+}
+
+nav .brand {
+    font-family: 'Squada One', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    text-align: left;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    color: white;
+}
+
+nav .list li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    text-align: left;
+}
+
+nav .list {
+    margin: 0px 20%;
+}
+
+li {
+    margin: 0px 10px;
+}
+
+/* <!-- ------navbar--------- --> */
+/* <!-- ------landing-section--------- --> */
+
+.landing-section {
+    display: flex;
+    background-color: var(--main);
+    padding: 200px 100px;
+    justify-content: center;
+    color: white
+}
+
+.landing-section-left {
+    height: 317px;
+    width: 634px;
+}
+
+.landing-section-left h1 {
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.landing-section-left p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.landing-section .landing-section-left .button-group {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    margin: 20px 0px;
+}
+
+.landing-section .landing-section-left .button-group input {
+    width: 398px;
+    height: 58px;
+    background: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    border: none;
+}
+
+.landing-section .landing-section-left .button-group button {
+    padding: 19px 29px;
+    background: #F3BA00;
+    border-radius: 0px 10px 10px 0px;
+    outline: none;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+}
+
+.landing-section .landing-section-left .button-group input::placeholder {
+    padding: 0px 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #929292;
+}
+
+.landing-section-right {}
+
+.landing-section-right img {
+    height: 498px;
+    width: 481px;
+}
+
+/* <!-- ------landing-section--------- --> */
+/* <!-- ------kitchen section--------- --> */
+
+
+.kitchen-section {
+    padding: 105px 130px;
+}
+
+.kitchen-section h1 {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 80px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: -0.012em;
+    text-align: left;
+}
+
+.grid {}
+
+.card {
+    width: 277px;
+    height: 337px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 277px;
+    height: 250px;
+}
+
+.card-bottom {
+    padding: 0px 24px;
+    gap: 10px;
+    width: 277px;
+    height: 87px;
+    border: 1px solid rgba(187, 187, 187, 0.25);
+    border-top: 0px;
+    box-shadow: 1px 1px 1px rgba(187, 187, 187, 0.25);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.card .card-bottom div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin: 15px 0px;
+    right: 10px;
+    width: 246px;
+    height: 20px;
+}
+
+.card .card-bottom .card-bottom-1 {
+
+}
+
+.card .card-bottom .card-bottom-2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: -0.012em;
+    color: #1B1C21;
+}
+
+.card .card-bottom .card-bottom-2 p .rating{
+    background: #F7F8FA;
+    border: 5px solid #BEBEBE;
+    border-width: 0px 0px;
+    border-radius: 4px;
+    padding: 4px 4px;
+}
+
+.card .card-bottom .card-bottom-2 p .time{
+    background: #F7F8FA;
+    border: 5px solid #BEBEBE;
+    border-width: 0px 4px;
+    border-radius: 8px;
+    padding: 4px 4px;
+}
+
+.card .card-bottom .card-bottom-2 .add{
+    background-color: #F3BA00;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+
+
+/* <!-- ------kitchen section--------- --> */
+/* <!-- ------popular section--------- --> */
+
+
+/* <!-- ------popular section--------- --> */
