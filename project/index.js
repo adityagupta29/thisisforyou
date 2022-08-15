@@ -16,3 +16,32 @@ playButton.addEventListener("click", function() {
     playButton.innerHTML = "▶";
   }
 });
+
+       
+const modal = document.querySelector(".popup");
+const modal2 = document.querySelector(".popup2");
+const body = document.querySelector("body");
+
+const showModal = function (e) {
+    modal.classList.toggle("hidden");
+
+    if (!modal.classList.contains("hidden")) {
+        body.style.overflow = "hidden";
+    } else {
+        body.style.overflow = "auto";
+    }
+};
+
+const showModal2 = function (e) {
+    modal2.classList.toggle("hidden");
+
+    if (!modal2.classList.contains("hidden")) {
+        body.style.overflow = "hidden";
+    } else {
+        body.style.overflow = "auto";
+    }
+};
+
+
+
+
