@@ -21,6 +21,8 @@ playButton.addEventListener("click", function() {
 const modal = document.querySelector(".popup");
 const modal2 = document.querySelector(".popup2");
 const body = document.querySelector("body");
+const slide1 = document.querySelector(".slide-card-1");
+const slide2 = document.querySelector(".slide-card-2");
 
 const showModal = function (e) {
     modal.classList.toggle("hidden");
@@ -41,6 +43,8 @@ const showModal2 = function (e) {
         body.style.overflow = "auto";
     }
 };
+
+
 
 
 
